@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Worque Responsive Landing Page | HTML CSS & JAVASCRIPT</title>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- ==== BOXICONS CDN ==== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ==== HEADER ==== -->
+    <header class="header">
+      <!-- ==== NAVBAR ==== -->
+      <nav class="navbar container">
+        <!-- ==== LOGO ==== -->
+        <div class="logo">
+          <img src="./img/logo-icon.png" alt="logo-icon" class="logo__img" />
+          <a href="#" class="logo__link">Worque.</a>
+        </div>
+        <!-- ==== NAV MENU ==== -->
+        <div class="nav__menu">
+          <ul class="nav__menu_list">
+            <li class="nav__menu_link_list">
+              <a href="#" class="nav__link">Platform.</a>
+            </li>
+            <li class="nav__menu_link_list">
+              <a href="#" class="nav__link">Solutions.</a>
+            </li>
+            <li class="nav__menu_link_list">
+              <a href="#" class="nav__link">Resources.</a>
+            </li>
+            <li class="nav__menu_link_list">
+              <a href="#" class="nav__link">Pricing.</a>
+            </li>
+            <li class="nav__menu_link_list">
+              <a href="#" class="nav__link">Log in.</a>
+            </li>
+            <li class="nav__menu_link_list">
+              <a href="#" class="nav__link get_started_btn">Get started.</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- ==== NAV-TOGGLE ==== -->
+        <button class="nav__toggle" id="nav_toggle">
+          <i class="bx bx-menu"></i>
+        </button>
+      </nav>
+    </header>
+
+    <br /><br /><br />
+
+    <main class="container main">
+      <section class="flex-item-1">
+        <h2 class="title">
+          Integrate your <br />
+          stack automate <br />
+          your work
+        </h2>
+        <p class="subtitle">
+          Evlove at the speed and scale of your buisness with the leader in
+          low-code automation
+        </p>
+        <button class="btn__start_trial">Start free trial</button>
+        <button class="btn__get__demo">Get a demo</button>
+        <div class="works">
+          <span> Working with the best </span>
+          <ul class="works__logo">
+            <li class="works__logo__img">
+              <img src="./img/logo-1.svg" alt="logo-1" class="works_logo" />
+            </li>
+            <li class="works__logo__img">
+              <img src="./img/logo-2.svg" class="works_logo" alt="logo-2" />
+            </li>
+            <li class="works__logo__img">
+              <img src="./img/logo-3.svg" class="works_logo" alt="logo-3" />
+            </li>
+            <li class="works__logo__img">
+              <img src="./img/logo-4.svg" class="works_logo" alt="logo-4" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="flex-item-2"></section>
+    </main>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <!-- === SCRIPT.JS === -->
+    <script src="./script.js"></script>
+    
+  </body>
+</html>
